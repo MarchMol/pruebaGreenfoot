@@ -12,6 +12,11 @@ public class MyCat extends Cat
      * Act - do whatever the MyCat wants to do.
      */
     public void act()
+    
     {
+        sleep(2);
+        if(isBored()){
+            shoutHooray();
+        }
     }    
 }
